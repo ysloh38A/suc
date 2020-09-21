@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUC Faculty of Engineering &amp; Information Technology</title>
+	    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+ 	
+
+</head>
+<body>
+<div class="container mainBody">
+	<img src="FEIT.png" width="100%" />
+	<div class="row">
+	<div class="col l3">
+
+		<div class="vertical-menu">
+		  <a href="B190038A.html" class="active" >Home Page</a>
+		  <a href="bose.html">Bachelor of Software Engineering</a>
+		  <a href="boee.html">Bachelor of Electronic Engineering with Honours</a>
+		  <a href="dit.html">Diploma in Information Technology</a>
+		  <a href="dcs.html">Diploma in Computer Science</a>
+      <a href="dee.html">Diploma in Electrical &amp; Electronic Engineering</a>
+		</div>
+
+
+	</div>
+	<div class="col l9">
+	<ul class="collection with-header">
+        <li class="collection-header"><h4 class="indigo-text text-darken-4">Faculty Introduction</h4></li>
+        <li class="collection-item">The faculty of Engineering and Information Technology (FEIT) is a faculty within the Southern University College (Southern UC). It was established on August 12, 2012 after Southern College (SC) was upgraded to Southern UC. The history reaches back to two decades ago, when the Department of Computer Science was first established in 1991, followed by the Department of Electrical and Electronics Engineering in 2004. These two departments were then integrated and renamed as the School of Engineering and Information Technology (SEIT) in March 2006.</li>
+      </ul>
+      <ul class="collection with-header">
+        <li class="collection-header"><h4 class="indigo-text text-darken-4">Programme offered</h4></li>
+        <li class="collection-item">Bachelor Degree:<br>
+        	<a href="bose.html">
+        	- Bachelor of Software Engineering (Hons)
+        	</a>
+        	<br>
+        	<a href="boee.html">- Bachelor of Electronic Engineering with Honours</a>
+
+        </li>
+        <li class="collection-item">Diploma:<br>
+        	<a href="dit.html">- Diploma in Information Technology</a><br>
+        	<a href="dcs.html">- Diploma in Computer Science</a><br>
+        	<a href="dee.html">- Diploma in Electrical &amp; Electronic Engineering</a>
+
+        </li>
+      </ul>
+  </div>
+	
+  </div>
+  
+
+	<div class="fixed-action-btn">
+	  <a id="menu" href="#modal1" class="btn-floating btn-large green modal-trigger">
+			    <i class="large material-icons">edit</i>
+			  </a>
+
+	</div>
+
+	<!-- Tap Target Structure -->
+	  <div class="tap-target teal white-text" data-target="menu">
+	    <div class="tap-target-content ">
+	      <h5>Visitor Form</h5>
+	      <p>Please fill our visitor form!</p>
+	    </div>
+	  </div>
+
+		<div id="modal1" class="modal">
+		    <div class="modal-content">
+		      <h4>Visitor Form</h4>
+		      <br><br>
+		      <div class="row">
+		            <form id="formId" method="POST" class="col s12" action="">
+		                <div class="row">
+		                    <div class="input-field col s12">
+		                        <input  id="name"type="text" class="validate">
+		                        <label for="name">Full Name</label>
+		                    </div>
+		                    <div class="input-field col s12">
+		                        <input  id="cnumber"  type="text">
+		                        <label for="cnumber">Contact Number</label>
+		                    </div>
+		                    <div class="input-field col s12">
+		                        <input  id="rArea"  type="text">
+		                        <label for="rArea">Residential Area</label>
+		                    </div>
+		                    <div class="input-field col s12">
+		                        <input  id="yograduate"  type="text">
+		                        <label for="yograduate">Year of graduate</label>
+		                    </div>
+
+		                </div>
+		                
+		            </form>
+        	   </div>
+
+		    </div>
+		    <div class="modal-footer">
+		      <button type="submit"  form="formId" class="modal-action modal-close waves-effect waves-green btn">Submit</button>
+		      <button class="modal-action modal-close waves-effect waves-red btn red">Cancel</button>
+		    </div>
+		</div>
+
+<footer class="page-footer indigo darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Southern University College
+FEIT</h5>
+                <p class="grey-text text-lighten-4">Jalan Selatan Utama, Off Jalan Skudai,
+81300 Skudai, Johor, Malaysia.
+Tel: 07-5586605 Fax: 07-5563306
+</p>
+              </div>
+              <div class="col l4 offset-l2 s12 ">
+                <h5 class="white-text">Social Media</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/FEITSouthernUC"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a><a><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a><a><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+           © 2020 Southern University College Loh Yan Sheng
+            <a class="grey-text text-lighten-4 right" href="https://www.southern.edu.my/privacy_policy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </footer>
+</div>
+
+
+
+</body>
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+   
+    var elemsTap = document.querySelector('.tap-target');
+    var instancesTap = M.TapTarget.init(elemsTap, {});
+     instancesTap.open()
+  });
+	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });	
+</script>
+</html>

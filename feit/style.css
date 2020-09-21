@@ -1,0 +1,32 @@
+
+.fixed-action-btn{
+		right:7%;/*desired value*/
+		bottom: 15%;
+	}
+.vertical-menu {
+  width: 100%; /* Set a width if you like */
+  height: 100%;
+  border-right-style: solid;
+}
+
+.vertical-menu a {
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 15px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #283593; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.mainBody{
+
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
